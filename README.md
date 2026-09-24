@@ -10,6 +10,7 @@ A collection of hands-on network security labs, enumeration workflows, and cheat
 |---|---|
 | [`Nmap-Enumeration/`](./Nmap-Enumeration) | Comprehensive Nmap guide — core scan types, NSE scripting, practical scanning workflows, and defensive takeaways. |
 | [`TryHackMe-RootMe/`](./TryHackMe-RootMe) | Full CTF writeup for TryHackMe's RootMe box — reconnaissance, web enumeration, file-upload bypass, reverse shell, and SUID privilege escalation. |
+| [`Wireshark-Malware-Traffic-Analysis/`](Wireshark-Malware-Traffic-Analysis/) | Wireshark analysis of malware traffic captures from Malware-Traffic-Analysis.net: DNS/HTTP filtering, Export Objects, Follow TCP Stream, and defanged IOCs. |
 
 ---
 
@@ -26,10 +27,11 @@ This repo is updated as new labs are completed — more content (TryHackMe rooms
 
 ## 📌 Status
 
-**Latest addition:** TryHackMe RootMe writeup
+**Latest addition:** Wireshark malware traffic analysis
 **Next up:** Blue-team focused labs (SIEM, log analysis, incident response)
 
 ---
+
 
 ## 🔗 Connect
 
