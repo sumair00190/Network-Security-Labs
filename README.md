@@ -1,10 +1,10 @@
-# 🛡️ Network Security Labs
+# Network Security Labs
 
 A collection of hands-on network security labs, enumeration workflows, and cheat-sheets — documented from practical CTF challenges and self-guided study while pursuing a career as a SOC Analyst.
 
 ---
 
-## 📂 Contents
+## Contents
 
 | Folder | Description |
 |---|---|
@@ -14,7 +14,7 @@ A collection of hands-on network security labs, enumeration workflows, and cheat
 
 ---
 
-## 🎯 About This Repo
+## About This Repo
 
 Each folder is self-contained with its own README, documenting:
 - The tools and techniques used
@@ -25,7 +25,7 @@ This repo is updated as new labs are completed — more content (TryHackMe rooms
 
 ---
 
-## 📌 Status
+## Status
 
 **Latest addition:** Wireshark malware traffic analysis
 **Next up:** Blue-team focused labs (SIEM, log analysis, incident response)
