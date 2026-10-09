@@ -1,15 +1,15 @@
-# 🌐 Network Security & Enumeration: Nmap Guide
+# Network Security & Enumeration: Nmap Guide
 
 This repository serves as a comprehensive lab guide, cheat sheet, and enumeration workflow for **Nmap (Network Mapper)**, compiled during hands-on network security labs and TryHackMe modules.
 
 ---
 
-## 📖 Overview
+## Overview
 Nmap is an essential open-source security tool used for network discovery, host detection, port scanning, and vulnerability auditing. Understanding Nmap scans is crucial for both offensive reconnaissance and defensive network monitoring.
 
 ---
 
-## 📌 Core Scan Types & Commands
+## Core Scan Types & Commands
 
 | Scan Type | Command | Purpose & Operational Use Case |
 | :--- | :--- | :--- |
@@ -23,7 +23,7 @@ Nmap is an essential open-source security tool used for network discovery, host 
 
 ---
 
-## 📜 Nmap Script Engine (NSE)
+## Nmap Script Engine (NSE)
 The Nmap Script Engine allows users to automate network tasks, vulnerability detection, and advanced enumeration.
 
 * **Default Script Scan:** Runs standard safe enumeration scripts against target services.
@@ -35,7 +35,7 @@ The Nmap Script Engine allows users to automate network tasks, vulnerability det
 
 ---
 
-## 🛠️ Practical Scanning Workflow
+## Practical Scanning Workflow
 
 1. **Host Discovery & Fast Reconnaissance:** Identifies live targets and quickly maps top active ports.
    * `nmap -sn <subnet/IP>` (Host discovery without port scan)
@@ -49,7 +49,7 @@ The Nmap Script Engine allows users to automate network tasks, vulnerability det
 
 ---
 
-## 🔒 Key Defensive Takeaways
+## Key Defensive Takeaways
 
 * **Firewall Hardening:** Filter unauthorized ICMP requests and strictly restrict public access to administrative ports (e.g., SSH 22, RDP 3389) using `ufw` / `iptables`.
 * **Banner Suppression:** Disable or randomize service version banners across web servers and SSH to obscure infrastructure details from unauthorized reconnaissance.
